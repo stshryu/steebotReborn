@@ -1,6 +1,9 @@
-from botMain import Bot
+import datetime
+import time
+
 from discord.ext import commands
-import time, datetime
+
+from botMain import Bot
 
 
 class Utilities(commands.Cog):
